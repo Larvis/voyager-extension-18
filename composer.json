@@ -9,18 +9,19 @@
             "homepage": "http://ss-dev.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "homepage": "https://github.com/monstrex/voyager-extension",
     "keywords": ["Laravel", "Voyager", "admin"],
     "require": {
         "tcg/voyager": "~1.5",
-        "spatie/laravel-medialibrary": "^9.00.0",
-        "illuminate/support": "~7.0|~8.0",
+        "spatie/laravel-medialibrary": "^10.0.0",
+        "illuminate/support": "~9.0|~10.0|~11.0",
         "ext-json": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.0|^8.0",
-        "laravel/framework": "^7.0|^8.0"
+        "phpunit/phpunit": "~9.0|~10.0",
+        "laravel/framework": "~9.0|~10.0|~11.0"
     },
     "autoload": {
         "psr-4": {
